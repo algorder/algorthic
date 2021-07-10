@@ -26,7 +26,6 @@ Configuration & Usage
 
 Warnings
 -------------
-**1) Don't share the private key with anyone. Algorder team will never ask for your private key.
+1) Don't share the private key with anyone. Algorder team will never ask for your private key.
 2) Since config.json file will contain the private key, make sure that the computer or server that you are running the application is secured. If anyone gets access to config.json file, they will be able to get your private key and steal your funds.
 3) We strongly suggest you create a separate wallet to use with this application. Only send 10.000 Algor tokens and 0.1 AVAX into it (for the first order's gas fee). So even if someone gets your private key, they won't be able to steal all of your holdings.  
-**
