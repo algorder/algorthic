@@ -33,3 +33,13 @@ Warnings
 2) Since config.json file will contain the private key, make sure that the computer or server that you are running the application is secured. If anyone gets access to config.json file, they will be able to get your private key and steal your funds.
 
 3) We strongly suggest you create a separate wallet to use with this application. Only send 10.000 Algor tokens and 0.1 AVAX into it (for the first order's gas fee). So even if someone gets your private key, they won't be able to steal all of your holdings.  
+
+Monitoring
+-------------
+Monitoring api data is refreshing every 1 hour. 
+
+1) Main statistics (total pending orders, total orders created, total orders executed)
+http://d1rgadtesv2tf8.cloudfront.net/stats-api/main.json
+
+2)Executed Orders (tx, address of algortic that sent the order, timestamp of execution)
+http://d1rgadtesv2tf8.cloudfront.net/stats-api/orderSent.json
